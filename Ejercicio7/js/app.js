@@ -130,3 +130,21 @@ var nuevaFuncion = crearFuncion();
 var segundaFuncion = nuevaFuncion ( persona.nombre );
 
 segundaFuncion();
+
+//*******************************************************************************************************
+// Funciones de flecha o arrow functions                                                               //
+//*******************************************************************************************************
+//Esta es una función normal
+function sumarNumeros(a, b){
+
+    var sumar = a + b;
+     return console.log(sumar);
+
+    }
+
+sumarNumeros(12,38);
+
+//Ejemplo funcion arrow
+var sumaNumeros2=(a, b) => {return console.log( a + b )}
+
+sumaNumeros2(21, 34);
