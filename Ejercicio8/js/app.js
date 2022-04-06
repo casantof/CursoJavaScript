@@ -6,7 +6,7 @@
 
 //    apellido = apellido || "xxx";
 
-//Si el apellido no esta adicionado como un parametro al momento de llamar la función imprimir, entra
+//Si el apelliso no esta adicionado como un parametro al momento de llamar la función imprimir, entra
 //y le asigna valor a la variables
 //    if(apellido === undefined){
 //        apellido = "Santofimio"; 
