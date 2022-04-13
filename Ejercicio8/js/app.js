@@ -11,7 +11,8 @@ var persona = {
     direccion: {
         pais: "Costa Rica",
         obtenerPais: function(){
-
+            //Aqui creo una variable self, para asignar el valor de this, que en ese punto si estaba
+            //tomando la informacion del objeto dirección.
             var self = this;
             var nuevaDireccion = function(){
                 console.log( self );
