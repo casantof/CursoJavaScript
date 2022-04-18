@@ -81,7 +81,7 @@
 
 //<Este ejemplo es con la opción instanceof, que basicamente devuelve un true o un false si se cumple
 // la funcion por ejemplo en este caso enviamos una función de tipo persona y como es una funcion retorna
-//true
+//true, Basicamente es comparar 2 parametros, si ya requiero saber el tipo debo usar typeof
 function identifica( param ){
 
     console.log( param instanceof Persona);
